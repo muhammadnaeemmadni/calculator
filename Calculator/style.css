@@ -1,0 +1,54 @@
+.main
+ {
+     margin: 0 auto;
+    border: 2px solid ;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-image: linear-gradient(green,blue,red,black,yellow); 
+ } 
+ .but
+ {
+     border: solid 2px;
+     width: 2.5%;
+     height: 35px;
+     margin-top: 10px;
+     background-image:linear-gradient(purple,blue,pink,white);
+     color: wheat;
+ }
+ .bul
+ {
+    border: solid 2px;
+     width: 11.5%;
+     height: 30px;
+    margin-top: 70px;
+    background-image:linear-gradient(purple,blue,pink,white);
+    color: wheat;
+ 
+ }
+ .bus
+ {
+    border: solid 2px;
+    width: 12%;
+    height: 30px;
+    background-image:linear-gradient(purple,blue,pink,white);
+      color: wheat;
+ }
+ .zer
+ {
+    border: solid 2px;
+     width: 6%;
+     margin-top: 10px;
+     background-image:linear-gradient(purple,blue,pink,white);
+     color: wheat;
+ }
+ .zul
+ {
+    border: solid 2px;
+    width: 5.5%;
+    margin-top: 10px;
+    background-image:linear-gradient(purple,blue,pink,white);
+    color: wheat;
+ }
+ 
+ 

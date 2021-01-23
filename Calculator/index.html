@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div ><input type="text" id="input"class="bul" disabled></div>
+        <div><button class="bus" onclick="c('c')">C</button></div>
+        <!-- <div> <button onclick="d(d)">D</button></div> -->
+        <div>
+            <button class="but" onclick="bu('9')">9</button>
+            <button class="but" onclick="bu('8')">8</button>
+            <button class="but" onclick="bu('7')">7</button>
+            <button class="but" onclick="bu('+')">+</button>
+        </div>
+        <div>
+            <button class="but" onclick="bu('6')">6</button>
+            <button class="but" onclick="bu('5')">5</button>
+            <button class="but" onclick="bu('4')">4</button>
+            <button class="but" onclick="bu('-')">-</button>
+        </div>
+        <div>
+            <button class="but" onclick="bu('3')">3</button>
+            <button class="but" onclick="bu('2')">2</button>
+            <button class="but" onclick="bu('1')">1</button>
+            <button class="but" onclick="bu('*')">*</button>
+        </div>
+        <div>
+            <button class="zer" onclick="bu('0')">0</button>
+            <button class="zul" onclick="but('=')">=</button>
+        </div>
+    </div>    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
